@@ -10,6 +10,14 @@ i found someone elses code that used a dictionary to map bases to their compleme
 
 'A': 'T' — this is a key-value pair:
 
+
+
+
+
+
+
+
+
 Notes from RNA Splicing problem https://rosalind.info/problems/splc/
 
 I assumed records is an array but its actually a list of SeqRecord objects.
