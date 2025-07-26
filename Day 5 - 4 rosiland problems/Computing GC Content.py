@@ -6,11 +6,8 @@ from Bio.SeqUtils import gc_fraction
 import os
 
 
-# Get directory of the current script
-script_dir = os.path.dirname(os.path.realpath(__file__))
-fasta_path = os.path.join(script_dir, "rosalind_gc.fasta")
+records = list(SeqIO.parse("rosalind_splc.fasta", "fasta"))
 
-records = list(SeqIO.parse(fasta_path, "fasta"))
 
 # Track highest GC content and ID
 max_gc = 0

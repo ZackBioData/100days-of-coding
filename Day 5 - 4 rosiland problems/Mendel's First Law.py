@@ -10,8 +10,7 @@ aaoutcome = ((aapop/totalpop) * ((Aapop)/(totalpop-1))*0.5) + ((Aapop/totalpop) 
 
 
 
-# Fix order of operations and assignment
+
 Aoutcome = (1 - aaoutcome) * 100
 
-# Fix print formatting
-print(f"{Aoutcome:.2f}% of the offspring will have a dominant allele")
+print(Aoutcome)
