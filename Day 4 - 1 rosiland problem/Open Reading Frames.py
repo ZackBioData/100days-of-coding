@@ -1,4 +1,3 @@
-# %%
 #https://rosalind.info/problems/orf/
 from Bio import SeqIO
 from Bio.Seq import Seq
@@ -6,7 +5,6 @@ from Bio.Seq import Seq
 record = SeqIO.read(r"C:\Users\zackd\Coding challenge\Day 4 -\rosalind_orf (2).fasta", "fasta")
 
 dna = record.seq
-# First record is the DNA
 reverse_dna = dna.reverse_complement()
 
 # Transcribe to RNA
